@@ -3,13 +3,13 @@
   "name": "@publish-studio/www",
   "version": "0.0.1",
   "author": "Rakesh Potnuru",
-  "homepage": "https://github.com/RakeshPotnuru/publish-studio#readme",
+  "homepage": "https://github.com/publishstudio/www#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RakeshPotnuru/publish-studio.git"
+    "url": "git+https://github.com/publishstudio/www.git"
   },
   "bugs": {
-    "url": "https://github.com/RakeshPotnuru/publish-studio/issues"
+    "url": "https://github.com/publishstudio/www/issues"
   },
   "scripts": {
     "build": "next build",
