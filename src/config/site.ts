@@ -8,6 +8,8 @@ export const siteConfig = {
   },
   links: {
     mainApp: "https://app.publishstudio.one",
+    bugReport:
+      "https://publishstudio.sg.larksuite.com/share/base/form/shrlgfAEQaMwqPeZ9Mbb5kXSNAe",
   },
   twitter: {
     site: "@publishstudio",

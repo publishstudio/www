@@ -20,7 +20,6 @@ export function Navbar() {
         <Link href="https://docs.publishstudio.one" target="_blank">
           Docs
         </Link>
-
         <Link href="mailto:support@publishstudio.one?subject=%5BLANDING%5D%3A%20Write%20your%20subject%20here">
           Support
         </Link>
