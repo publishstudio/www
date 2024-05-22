@@ -1,47 +1,32 @@
 {
+  "name": "publish-studio",
+  "version": "0.2.0",
   "private": true,
-  "name": "@publish-studio/www",
-  "version": "0.0.1",
-  "author": "Rakesh Potnuru",
-  "homepage": "https://github.com/publishstudio/www#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/publishstudio/www.git"
-  },
-  "bugs": {
-    "url": "https://github.com/publishstudio/www/issues"
-  },
   "scripts": {
-    "build": "next build",
-    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next",
     "dev": "next dev",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@itsrakesh/utils": "^1.2.1",
-    "@marsidev/react-turnstile": "^0.5.1",
-    "@tabler/icons-react": "^2.47.0",
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "framer-motion": "^11.0.6",
-    "mini-svg-data-uri": "^1.4.4",
-    "next": "14.1.0",
+    "@itsrakesh/utils": "^1.2.2",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "next": "^14.2.3",
     "next-themes": "^0.2.1",
-    "react": "^18",
-    "react-dom": "^18",
-    "tailwindcss-animate": "^1.0.7"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-modal-video": "^2.0.0"
   },
   "devDependencies": {
-    "@bravo68web/eslint-config": "^1.2.4",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
   }
 }
