@@ -1,7 +1,7 @@
 export const siteConfig = {
   title: "Publish Studio: All-in-One Content Creation & Publishing Platform",
   description:
-    "Publish Studio is an all-in-one platform to curate content and publish to different platforms.",
+    "The Ultimate Platform for Seamless Content Curation and Distribution. All in One Place.",
   url: "https://publishstudio.one",
   theme: {
     color: "#EB5757",
