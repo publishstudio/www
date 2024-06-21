@@ -8,14 +8,16 @@ export const siteConfig = {
   },
   links: {
     mainApp: "https://app.publishstudio.one",
-    bugReport:
-      "https://publishstudio.sg.larksuite.com/share/base/form/shrlgfAEQaMwqPeZ9Mbb5kXSNAe",
+    feedback: "https://pbst.link/feedback",
+    roadmap: "https://pbst.link/roadmap",
+    changelog: "https://pbst.link/changelog",
     docs: "https://pbst.link/docs",
     support:
       "mailto:support@publishstudio.one?subject=%5BLANDING%5D%3A%20Write%20your%20subject%20here",
     x: "https://pbst.link/x",
     linkedin: "https://pbst.link/linkedin",
     reddit: "https://pbst.link/reddit",
+    status: "https://pbst.link/status",
   },
   twitter: {
     site: "@publishstudio",

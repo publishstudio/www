@@ -137,15 +137,47 @@ const Footer = () => {
                     Support
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
-                    href="/"
+                    href={siteConfig.links.status}
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    Terms of Use
+                    Status
                   </a>
                 </li>
                 <li>
+                  <a
+                    href={siteConfig.links.feedback}
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Feedback or Bug Report
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={siteConfig.links.roadmap}
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Product Roadmap
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={siteConfig.links.changelog}
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Changelog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={`${siteConfig.links.feedback}/?b=664f09d6003811bebc08b4d1`}
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Request a Feature
+                  </a>
+                </li>
+                {/* <li>
                   <a
                     href="/about"
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
