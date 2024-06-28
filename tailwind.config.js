@@ -11,7 +11,6 @@ module.exports = {
       center: true,
       padding: "1rem",
     },
-
     screens: {
       xs: "450px",
       // => @media (min-width: 450px) { ... }
@@ -65,6 +64,19 @@ module.exports = {
       },
       dropShadow: {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
+      },
+    },
+    animation: {
+      shimmer: "shimmer 2s linear infinite",
+    },
+    keyframes: {
+      shimmer: {
+        from: {
+          backgroundPosition: "0 0",
+        },
+        to: {
+          backgroundPosition: "-200% 0",
+        },
       },
     },
   },

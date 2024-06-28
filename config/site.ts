@@ -23,6 +23,10 @@ export const siteConfig = {
     site: "@publishstudio",
     creator: "@rakesh_at_tweet",
   },
+  banner: {
+    text: "Introducing Content Planner and Brainstorm",
+    link: "https://pbst.link/changelog",
+  },
   pages: {
     home: {
       title: "Home",
