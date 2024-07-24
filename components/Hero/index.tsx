@@ -1,6 +1,6 @@
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
-import { FaArrowRight } from "react-icons/fa6";
+import ProductHuntBadge from "./product-hunt-badge";
 
 const Hero = () => {
   return (
@@ -15,12 +15,13 @@ const Hero = () => {
               className="wow fadeInUp mx-auto max-w-[800px] text-center"
               data-wow-delay=".2s"
             >
-              <Link href={siteConfig.banner.link} target="_blank">
+              {/* <Link href={siteConfig.banner.link} target="_blank">
                 <button className="animate-shimmer mb-4 inline-flex h-fit items-center justify-center rounded-full border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-2.5 py-1.5 text-xs font-medium text-slate-400 transition-colors hover:opacity-80 focus:outline-none">
                   📣 NEW ✨ {siteConfig.banner.text}
                   <FaArrowRight className="ml-2" />
                 </button>
-              </Link>
+              </Link> */}
+              <ProductHuntBadge />
               <h1 className="mb-5 text-6xl font-black leading-tight text-black dark:text-white sm:text-7xl sm:leading-tight md:text-8xl md:leading-tight">
                 Craft. Curate. Connect.
               </h1>

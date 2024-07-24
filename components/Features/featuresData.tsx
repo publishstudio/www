@@ -5,6 +5,8 @@ import { LuImport } from "react-icons/lu";
 import { MdPermMedia, MdWysiwyg } from "react-icons/md";
 import { RiCalendarScheduleFill, RiChatVoiceFill } from "react-icons/ri";
 import { TbBinaryTree2 } from "react-icons/tb";
+import { BsFillKanbanFill } from "react-icons/bs";
+import { GiBrainstorm } from "react-icons/gi";
 
 const featuresData: Feature[] = [
   {
@@ -23,41 +25,55 @@ const featuresData: Feature[] = [
   },
   {
     id: 3,
+    icon: <BsFillKanbanFill size={40} />,
+    title: "Content Planner",
+    paragraph:
+      "Stay organized with our content planner. Plan, organize, and manage your content calendar with ease.",
+  },
+  {
+    id: 4,
+    icon: <GiBrainstorm size={40} />,
+    title: "Brainstorm",
+    paragraph:
+      "Generate New Ideas Based on Your Past Content, Categories, and Topics.",
+  },
+  {
+    id: 5,
     icon: <LuImport size={40} />,
     title: "Import Content",
     paragraph:
       "Import content from anywhere and organize it all in one central location. Publish Studio keeps your content library tidy and accessible.",
   },
   {
-    id: 4,
+    id: 6,
     icon: <FaRobot size={40} />,
     title: "Generative AI",
     paragraph:
       "Writer's block? No problem! Our generative AI helps you brainstorm, craft compelling copy, and perfect your writing with ease.",
   },
   {
-    id: 5,
+    id: 7,
     icon: <MdPermMedia size={40} />,
     title: "Integrated Media Tools",
     paragraph:
       "Publish Studio integrates with industry-leading media tools like Cloudinary, Imagekit, Pixels, and Unsplash. Find, manage, and insert stunning visuals directly within the platform - no switching back and forth required!",
   },
   {
-    id: 6,
+    id: 8,
     icon: <RiCalendarScheduleFill size={40} />,
     title: "Schedule Posts",
     paragraph:
       "Plan your content calendar with ease. Schedule your posts to go live at the perfect time, and let Publish Studio take care of the rest.",
   },
   {
-    id: 7,
+    id: 9,
     icon: <RiChatVoiceFill size={40} />,
     title: "Tone Analyzer",
     paragraph:
       "Ensure your message lands perfectly. Publish Studio's built-in tone analyzer helps you fine-tune your writing to resonate with your audience.",
   },
   {
-    id: 8,
+    id: 10,
     icon: <FaMicrophoneAlt size={40} />,
     title: "Voice Typing",
     paragraph:
