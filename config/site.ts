@@ -18,6 +18,7 @@ export const siteConfig = {
     linkedin: "https://pbst.link/linkedin",
     reddit: "https://pbst.link/reddit",
     status: "https://pbst.link/status",
+    productHunt: "https://pbst.link/ph",
   },
   twitter: {
     site: "@publishstudio",
@@ -49,4 +50,5 @@ export const siteConfig = {
       link: "/cookies",
     },
   },
+  showBanner: true,
 };
