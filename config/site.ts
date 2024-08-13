@@ -1,5 +1,5 @@
 export const siteConfig = {
-  title: "Publish Studio: All-in-One Content Creation & Publishing Platform",
+  title: "Publish Studio: Content Curation & Publishing Platform",
   description:
     "The Ultimate Platform for Seamless Content Curation and Distribution. All in One Place.",
   url: "https://publishstudio.one",
