@@ -111,14 +111,14 @@ const Footer = () => {
                     Privacy Policy
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href={siteConfig.pages.cookies.link}
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     Cookie Policy
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
