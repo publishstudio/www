@@ -16,7 +16,7 @@ export default function TermsOfServicePage() {
     <div className="m-10 space-y-8 pt-[120px]">
       <Section>
         <Heading>TERMS OF SERVICE</Heading>
-        <p className="text-xs font-bold">Last updated February 19, 2024</p>
+        <p className="text-xs font-bold">Last updated August 16, 2024</p>
       </Section>
       <Section>
         <Heading level={2}>AGREEMENT TO OUR LEGAL TERMS</Heading>
@@ -65,84 +65,144 @@ export default function TermsOfServicePage() {
         <Heading level={2}>TABLE OF CONTENTS</Heading>
         <ol className="list-inside list-decimal">
           <li>
-            <LinkButton href="#services">OUR SERVICES</LinkButton>
+            <LinkButton href="#services" target="_parent">
+              OUR SERVICES
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#ip">INTELLECTUAL PROPERTY RIGHTS</LinkButton>
+            <LinkButton href="#ip" target="_parent">
+              INTELLECTUAL PROPERTY RIGHTS
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#user-reps">USER REPRESENTATIONS</LinkButton>
+            <LinkButton href="#user-reps" target="_parent">
+              USER REPRESENTATIONS
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#user-reg">USER REGISTRATION</LinkButton>
+            <LinkButton href="#user-reg" target="_parent">
+              USER REGISTRATION
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#prohibited">PROHIBITED ACTIVITIES</LinkButton>
+            <LinkButton href="#purchases" target="_parent">
+              PURCHASES AND PAYMENT
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#ugc">USER GENERATED CONTRIBUTIONS</LinkButton>
+            <LinkButton href="#subscriptions" target="_parent">
+              SUBSCRIPTIONS
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#license">CONTRIBUTION LICENSE</LinkButton>
+            <LinkButton href="#prohibited" target="_parent">
+              PROHIBITED ACTIVITIES
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#reviews">GUIDELINES FOR REVIEWS</LinkButton>
+            <LinkButton href="#ugc" target="_parent">
+              USER GENERATED CONTRIBUTIONS
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#third-party">
+            <LinkButton href="#license" target="_parent">
+              CONTRIBUTION LICENSE
+            </LinkButton>
+          </li>
+          <li>
+            <LinkButton href="#reviews" target="_parent">
+              GUIDELINES FOR REVIEWS
+            </LinkButton>
+          </li>
+          <li>
+            <LinkButton href="#socialmedia" target="_parent">
+              SOCIAL MEDIA
+            </LinkButton>
+          </li>
+          <li>
+            <LinkButton href="#third-party" target="_parent">
               THIRD-PARTY WEBSITES AND CONTENT
             </LinkButton>
           </li>
           <li>
-            <LinkButton href="#site-manage">SERVICES MANAGEMENT</LinkButton>
+            <LinkButton href="#site-manage" target="_parent">
+              SERVICES MANAGEMENT
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#pp-yes">PRIVACY POLICY</LinkButton>
+            <LinkButton href="#pp-yes" target="_parent">
+              PRIVACY POLICY
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#copyright-no">
+            <LinkButton href="#copyright-no" target="_parent">
               COPYRIGHT INFRINGEMENTS
             </LinkButton>
           </li>
           <li>
-            <LinkButton href="#terms">TERM AND TERMINATION</LinkButton>
+            <LinkButton href="#terms" target="_parent">
+              TERM AND TERMINATION
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#modifications">
+            <LinkButton href="#modifications" target="_parent">
               MODIFICATIONS AND INTERRUPTIONS
             </LinkButton>
           </li>
           <li>
-            <LinkButton href="#law">GOVERNING LAW</LinkButton>
+            <LinkButton href="#law" target="_parent">
+              GOVERNING LAW
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#disputes">DISPUTE RESOLUTION</LinkButton>
+            <LinkButton href="#disputes" target="_parent">
+              DISPUTE RESOLUTION
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#corrections">CORRECTIONS</LinkButton>
+            <LinkButton href="#corrections" target="_parent">
+              CORRECTIONS
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#disclaimer">DISCLAIMER</LinkButton>
+            <LinkButton href="#disclaimer" target="_parent">
+              DISCLAIMER
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#liability">LIMITATIONS OF LIABILITY</LinkButton>
+            <LinkButton href="#liability" target="_parent">
+              LIMITATIONS OF LIABILITY
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#indemnification">INDEMNIFICATION</LinkButton>
+            <LinkButton href="#indemnification" target="_parent">
+              INDEMNIFICATION
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#user-data">USER DATA</LinkButton>
+            <LinkButton href="#user-data" target="_parent">
+              USER DATA
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#electronic">
+            <LinkButton href="#electronic" target="_parent">
               ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
             </LinkButton>
           </li>
           <li>
-            <LinkButton href="#misc">MISCELLANEOUS</LinkButton>
+            <LinkButton href="#california" target="_parent">
+              CALIFORNIA USERS AND RESIDENTS
+            </LinkButton>
           </li>
           <li>
-            <LinkButton href="#contact">CONTACT US</LinkButton>
+            <LinkButton href="#misc" target="_parent">
+              MISCELLANEOUS
+            </LinkButton>
+          </li>
+          <li>
+            <LinkButton href="#contact" target="_parent">
+              CONTACT US
+            </LinkButton>
           </li>
         </ol>
       </Section>
@@ -526,6 +586,83 @@ export default function TermsOfServicePage() {
             <li>Sell or otherwise transfer your profile.</li>
           </List>
         </Section>
+        <Section id="purchases">
+          <Heading level={2}>
+            <li>PURCHASES AND PAYMENT</li>
+          </Heading>
+          <p>We accept the following forms of payment:</p>
+          <List>
+            <li>Visa</li>
+            <li>Mastercard</li>
+            <li>American Express</li>
+            <li>Discover</li>
+            <li>Apple Pay</li>
+            <li>Bancontact</li>
+            <li>Google Pay</li>
+            <li>iDEAL</li>
+          </List>
+          <p>
+            You agree to provide current, complete, and accurate purchase and
+            account information for all purchases made via the Services. You
+            further agree to promptly update account and payment information,
+            including email address, payment method, and payment card expiration
+            date, so that we can complete your transactions and contact you as
+            needed. Sales tax will be added to the price of purchases as deemed
+            required by us. We may change prices at any time. All payments shall
+            be in US dollars.
+          </p>
+          <p>
+            You agree to pay all charges at the prices then in effect for your
+            purchases and any applicable shipping fees, and you authorize us to
+            charge your chosen payment provider for any such amounts upon
+            placing your order. We reserve the right to correct any errors or
+            mistakes in pricing, even if we have already requested or received
+            payment.
+          </p>
+          <p>
+            We reserve the right to refuse any order placed through the
+            Services. We may, in our sole discretion, limit or cancel quantities
+            purchased per person, per household, or per order. These
+            restrictions may include orders placed by or under the same customer
+            account, the same payment method, and/or orders that use the same
+            billing or shipping address. We reserve the right to limit or
+            prohibit orders that, in our sole judgment, appear to be placed by
+            dealers, resellers, or distributors.
+          </p>
+        </Section>
+        <Section id="subscriptions">
+          <Heading level={2}>
+            <li>SUBSCRIPTIONS</li>
+          </Heading>
+          <Heading level={3}>Billing and Renewal</Heading>
+          <p>
+            Your subscription will continue and automatically renew unless
+            canceled. You consent to our charging your payment method on a
+            recurring basis without requiring your prior approval for each
+            recurring charge, until such time as you cancel the applicable
+            order. The length of your billing cycle is monthly.
+          </p>
+          <Heading level={3}>Free Trial</Heading>
+          <p>
+            We offer a 7-day free trial to new users who register with the
+            Services. The account will be charged according to the user's chosen
+            subscription at the end of the free trial.
+          </p>
+          <Heading level={3}>Cancellation</Heading>
+          <p>
+            All purchases are non-refundable. You can cancel your subscription
+            at any time by logging into your account. Your cancellation will
+            take effect at the end of the current paid term. If you have any
+            questions or are unsatisfied with our Services, please email us at
+            support@publishstudio.one.
+          </p>
+          <Heading level={3}>Fee Changes</Heading>
+          <p>
+            We may, from time to time, make changes to the subscription fee and
+            will communicate any price changes to you in accordance with
+            applicable law.
+          </p>
+        </Section>
         <Section id="ugc">
           <Heading level={2}>
             <li>USER GENERATED CONTRIBUTIONS</li>
@@ -701,6 +838,61 @@ export default function TermsOfServicePage() {
             right and license to reproduce, modify, translate, transmit by any
             means, display, perform, and/or distribute all content relating to
             review.
+          </p>
+        </Section>
+        <Section id="socialmedia">
+          <Heading level={2}>
+            <li>SOCIAL MEDIA</li>
+          </Heading>
+          <p>
+            As part of the functionality of the Services, you may link your
+            account with online accounts you have with third-party service
+            providers (each such account, a "Third-Party Account") by either:
+            (1) providing your Third-Party Account login information through the
+            Services; or (2) allowing us to access your Third-Party Account, as
+            is permitted under the applicable terms and conditions that govern
+            your use of each Third-Party Account. You represent and warrant that
+            you are entitled to disclose your Third-Party Account login
+            information to us and/or grant us access to your Third-Party
+            Account, without breach by you of any of the terms and conditions
+            that govern your use of the applicable Third-Party Account, and
+            without obligating us to pay any fees or making us subject to any
+            usage limitations imposed by the third-party service provider of the
+            Third-Party Account. By granting us access to any Third-Party
+            Accounts, you understand that (1) we may access, make available, and
+            store (if applicable) any content that you have provided to and
+            stored in your Third-Party Account (the "Social Network Content") so
+            that it is available on and through the Services via your account,
+            including without limitation any friend lists and (2) we may submit
+            to and receive from your Third-Party Account additional information
+            to the extent you are notified when you link your account with the
+            Third-Party Account. Depending on the Third-Party Accounts you
+            choose and subject to the privacy settings that you have set in such
+            Third-Party Accounts, personally identifiable information that you
+            post to your Third-Party Accounts may be available on and through
+            your account on the Services. Please note that if a Third-Party
+            Account or associated service becomes unavailable or our access to
+            such Third-Party Account is terminated by the third-party service
+            provider, then Social Network Content may no longer be available on
+            and through the Services. You will have the ability to disable the
+            connection between your account on the Services and your Third-Party
+            Accounts at any time. PLEASE NOTE THAT YOUR RELATIONSHIP WITH THE
+            THIRD-PARTY SERVICE PROVIDERS ASSOCIATED WITH YOUR THIRD-PARTY
+            ACCOUNTS IS GOVERNED SOLELY BY YOUR AGREEMENT(S) WITH SUCH
+            THIRD-PARTY SERVICE PROVIDERS. We make no effort to review any
+            Social Network Content for any purpose, including but not limited
+            to, for accuracy, legality, or non-infringement, and we are not
+            responsible for any Social Network Content. You acknowledge and
+            agree that we may access your email address book associated with a
+            Third-Party Account and your contacts list stored on your mobile
+            device or tablet computer solely for purposes of identifying and
+            informing you of those contacts who have also registered to use the
+            Services. You can deactivate the connection between the Services and
+            your Third-Party Account by contacting us using the contact
+            information below or through your account settings (if applicable).
+            We will attempt to delete any information stored on our servers that
+            was obtained through such Third-Party Account, except the username
+            and profile picture that become associated with your account.
           </p>
         </Section>
         <Section id="third-party">
@@ -1050,6 +1242,18 @@ export default function TermsOfServicePage() {
             jurisdiction which require an original signature or delivery or
             retention of non-electronic records, or to payments or the granting
             of credits by any means other than electronic means.
+          </p>
+        </Section>
+        <Section id="california">
+          <Heading level={2}>
+            <li>CALIFORNIA USERS AND RESIDENTS</li>
+          </Heading>
+          <p>
+            If any complaint with us is not satisfactorily resolved, you can
+            contact the Complaint Assistance Unit of the Division of Consumer
+            Services of the California Department of Consumer Affairs in writing
+            at 1625 North Market Blvd., Suite N 112, Sacramento, California
+            95834 or by telephone at (800) 952-5210 or (916) 445-1254.
           </p>
         </Section>
         <Section id="misc">
