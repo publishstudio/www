@@ -69,9 +69,9 @@ const Footer = () => {
                     Docs
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
-                    href="/pricing"
+                    href="#pricing"
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     Pricing
@@ -79,12 +79,12 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/about"
+                    href={siteConfig.links.productHunt}
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    About
+                    Product Hunt
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
           </div>
@@ -111,14 +111,14 @@ const Footer = () => {
                     Privacy Policy
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
                     href={siteConfig.pages.cookies.link}
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    Cookie Policy
+                    Biscuit Policy
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
           </div>

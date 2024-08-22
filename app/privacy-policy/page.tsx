@@ -23,7 +23,7 @@ export const Section = ({
 export const List = ({
   children,
 }: Readonly<React.HTMLAttributes<HTMLElement>>) => {
-  return <ul className="list-inside list-disc">{children}</ul>;
+  return <ul className="list-inside list-disc pl-4">{children}</ul>;
 };
 
 export default function PrivacyPolicyPage() {
@@ -970,7 +970,7 @@ export default function PrivacyPolicyPage() {
                   Name, contact information, education, employment, employment
                   history and financial information
                 </td>
-                <td>YES</td>
+                <td>NO</td>
               </tr>
               <tr className="*:px-6 *:py-4">
                 <td>

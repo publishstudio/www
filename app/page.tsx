@@ -4,6 +4,7 @@ import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import Pricing from "@/components/Pricing";
 import { siteConfig } from "@/config/site";
 import { Metadata, Viewport } from "next";
 
@@ -56,7 +57,7 @@ export default function Home() {
       <AboutSectionOne />
       <AboutSectionTwo />
       {/* <Testimonials /> */}
-      {/* <Pricing /> */}
+      <Pricing />
       {/* <Blog /> */}
       {/* <Contact /> */}
     </>

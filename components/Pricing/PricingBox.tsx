@@ -15,12 +15,12 @@ const PricingBox = (props: {
       >
         <div className="flex items-center justify-between">
           <h3 className="price mb-2 text-3xl font-bold text-black dark:text-white">
-            $<span className="amount">{price}</span>
+            <span className="amount">{price}</span>
             <span className="time text-body-color">/{duration}</span>
           </h3>
-          <h4 className="mb-2 text-xl font-bold text-dark dark:text-white">
+          {/* <h4 className="mb-2 text-xl font-bold text-dark dark:text-white">
             {packageName}
-          </h4>
+          </h4> */}
         </div>
         <p className="mb-7 text-base text-body-color">{subtitle}</p>
         <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">

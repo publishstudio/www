@@ -50,5 +50,5 @@ export const siteConfig = {
       link: "/cookies",
     },
   },
-  showBanner: true,
+  showBanner: false,
 };
