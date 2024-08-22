@@ -1,23 +1,78 @@
 "use client";
-import { useState } from "react";
+import {
+  initializePaddle,
+  Paddle,
+  PricePreviewResponse,
+} from "@paddle/paddle-js";
+import { useEffect, useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
 const Pricing = () => {
-  const [isMonthly, setIsMonthly] = useState(true);
+  // const [isMonthly, setIsMonthly] = useState(true);
+  const [prices, setPrices] = useState<PricePreviewResponse>();
+
+  useEffect(() => {
+    if (!process.env.NEXT_PUBLIC_PADDLE_CLIENT_TOKEN) return;
+
+    initializePaddle({
+      environment:
+        process.env.NEXT_PUBLIC_SITE_ENV === "production"
+          ? "production"
+          : "sandbox",
+      token: process.env.NEXT_PUBLIC_PADDLE_CLIENT_TOKEN,
+    })
+      .then(async (paddleInstance: Paddle | undefined) => {
+        if (paddleInstance) {
+          let ipAddress = "";
+          const fetchIpAddress = async () => {
+            try {
+              const response = await fetch("https://api.ipify.org?format=json");
+              const data = await response.json();
+
+              ipAddress = data.ip;
+            } catch (error) {
+              // Ignore
+            }
+          };
+
+          await fetchIpAddress();
+
+          paddleInstance
+            .PricePreview({
+              items: [
+                {
+                  priceId: process.env.NEXT_PUBLIC_PADDLE_PRO_PRICE_ID,
+                  quantity: 1,
+                },
+              ],
+              customerIpAddress: ipAddress,
+            })
+            .then((prices) => {
+              setPrices(prices);
+            })
+            .catch(() => {
+              // Ignore
+            });
+        }
+      })
+      .catch(() => {
+        // Ignore
+      });
+  }, []);
 
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="One Price for Everything"
+          paragraph=""
           center
           width="665px"
         />
 
-        <div className="w-full">
+        {/* <div className="w-full">
           <div
             className="wow fadeInUp mb-8 flex justify-center md:mb-12 lg:mb-16"
             data-wow-delay=".1s"
@@ -58,23 +113,31 @@ const Pricing = () => {
               Yearly
             </span>
           </div>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+          <div></div>
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Pro"
+            price={prices?.data.details.lineItems[0].formattedTotals.subtotal}
+            duration={"mo"}
+            subtitle="Full access to all the features"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Unlimited projects" status="active" />
+            <OfferList text="Publish to all 6 platforms" status="active" />
+            <OfferList text="Unlimited file uploads" status="active" />
+            <OfferList text="Unlimited AI generations" status="active" />
+            <OfferList
+              text="10,000 character limit per project for tone analysis"
+              status="active"
+            />
+            <OfferList
+              text="Unlimited inserts from media libraries"
+              status="active"
+            />
           </PricingBox>
-          <PricingBox
+          <div></div>
+          {/* <PricingBox
             packageName="Basic"
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
@@ -99,7 +162,7 @@ const Pricing = () => {
             <OfferList text="Email Support" status="active" />
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="active" />
-          </PricingBox>
+          </PricingBox> */}
         </div>
       </div>
 

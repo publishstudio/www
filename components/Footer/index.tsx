@@ -69,9 +69,9 @@ const Footer = () => {
                     Docs
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
-                    href="/pricing"
+                    href="#pricing"
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     Pricing
@@ -79,12 +79,12 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/about"
+                    href={siteConfig.links.productHunt}
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    About
+                    Product Hunt
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Footer = () => {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
             <div className="mb-12 lg:mb-16">
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                Terms
+                Legal
               </h2>
               <ul>
                 <li>
@@ -111,14 +111,14 @@ const Footer = () => {
                     Privacy Policy
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
-                    href="/"
+                    href={siteConfig.pages.cookies.link}
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    Refund Policy
+                    Biscuit Policy
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
           </div>

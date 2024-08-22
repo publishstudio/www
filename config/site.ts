@@ -2,7 +2,7 @@ export const siteConfig = {
   title: "Publish Studio: Content Curation & Publishing Platform",
   description:
     "The Ultimate Platform for Seamless Content Curation and Distribution. All in One Place.",
-  url: "https://publishstudio.one",
+  url: "https://www.publishstudio.one",
   theme: {
     color: "#EB5757",
   },
@@ -50,5 +50,5 @@ export const siteConfig = {
       link: "/cookies",
     },
   },
-  showBanner: true,
+  showBanner: false,
 };

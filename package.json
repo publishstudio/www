@@ -3,13 +3,14 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@itsrakesh/utils": "^1.2.2",
+    "@paddle/paddle-js": "^1.2.1",
     "eslint": "9.3.0",
     "eslint-config-next": "14.2.3",
     "next": "^14.2.3",

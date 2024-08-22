@@ -21,16 +21,22 @@ const menuData: Menu[] = [
   //   newTab: false,
   // },
   {
-    id: 3,
+    id: 2,
     title: "Support",
     path: siteConfig.links.support,
     newTab: false,
   },
   {
-    id: 4,
+    id: 3,
     title: "Docs",
     path: siteConfig.links.docs,
     newTab: true,
+  },
+  {
+    id: 4,
+    title: "Pricing",
+    path: "/#pricing",
+    newTab: false,
   },
   // {
   //   id: 4,

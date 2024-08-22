@@ -1,6 +1,5 @@
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
-import ProductHuntBadge from "./product-hunt-badge";
 
 const Hero = () => {
   return (
@@ -21,7 +20,7 @@ const Hero = () => {
                   <FaArrowRight className="ml-2" />
                 </button>
               </Link> */}
-              <ProductHuntBadge />
+              {/* <ProductHuntBadge /> */}
               <h1 className="mb-5 text-6xl font-black leading-tight text-black dark:text-white sm:text-7xl sm:leading-tight md:text-8xl md:leading-tight">
                 Craft. Curate. Connect.
               </h1>
@@ -31,10 +30,10 @@ const Hero = () => {
               </p>
               <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                 <Link
-                  href={siteConfig.links.mainApp}
+                  href={`${siteConfig.links.mainApp}/register`}
                   className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                 >
-                  Start Writing - It's free!
+                  Start Free Trial
                 </Link>
                 {/* <Link
                     href="https://github.com/NextJSTemplates/startup-nextjs"
