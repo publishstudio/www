@@ -1,3 +1,6 @@
+import { siteConfig } from "@/config/site";
+import Link from "next/link";
+
 const PricingBox = (props: {
   price: string;
   duration: string;
@@ -24,9 +27,11 @@ const PricingBox = (props: {
         </div>
         <p className="mb-7 text-base text-body-color">{subtitle}</p>
         <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
-          <button className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-            Start Free Trial
-          </button>
+          <Link href={`${siteConfig.links.mainApp}/register`}>
+            <button className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+              Start Free Trial
+            </button>
+          </Link>
         </div>
         <div>{children}</div>
         <div className="absolute bottom-0 right-0 z-[-1]">
