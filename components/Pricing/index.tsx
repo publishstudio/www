@@ -135,6 +135,11 @@ const Pricing = () => {
               text="Unlimited inserts from media libraries"
               status="active"
             />
+            <OfferList text="Unlimited idea generations" status="active" />
+            <OfferList
+              text="Unlimited access to content planner"
+              status="active"
+            />
           </PricingBox>
           <div></div>
           {/* <PricingBox
