@@ -79,6 +79,14 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
+                    href="#use-cases"
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Use Cases
+                  </a>
+                </li>
+                <li>
+                  <a
                     href={siteConfig.links.productHunt}
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >

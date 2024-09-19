@@ -38,6 +38,18 @@ const menuData: Menu[] = [
     path: "/#pricing",
     newTab: false,
   },
+  {
+    id: 5,
+    title: "Use Cases",
+    path: "/#use-cases",
+    newTab: false,
+  },
+  {
+    id: 6,
+    title: "FAQs",
+    path: "/#faq",
+    newTab: false,
+  },
   // {
   //   id: 4,
   //   title: "Pages",

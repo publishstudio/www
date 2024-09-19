@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative z-10 flex h-screen items-center justify-center overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+      className="relative z-10 flex overflow-hidden bg-white pb-28 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
     >
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
@@ -21,7 +21,7 @@ const Hero = () => {
                 </button>
               </Link> */}
               {/* <ProductHuntBadge /> */}
-              <h1 className="mb-5 text-3xl font-black leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-7xl md:leading-tight">
+              <h1 className="mb-5 text-3xl font-black leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-6xl md:leading-tight">
                 Create, Organize, and Publish Blogs Effortlessly
               </h1>
               <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
