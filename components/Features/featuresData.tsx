@@ -1,12 +1,12 @@
 import { Feature } from "@/types/feature";
+import { BsFillKanbanFill } from "react-icons/bs";
 import { FaMicrophoneAlt } from "react-icons/fa";
 import { FaRobot } from "react-icons/fa6";
+import { GiBrainstorm } from "react-icons/gi";
 import { LuImport } from "react-icons/lu";
 import { MdPermMedia, MdWysiwyg } from "react-icons/md";
 import { RiCalendarScheduleFill, RiChatVoiceFill } from "react-icons/ri";
 import { TbBinaryTree2 } from "react-icons/tb";
-import { BsFillKanbanFill } from "react-icons/bs";
-import { GiBrainstorm } from "react-icons/gi";
 
 const featuresData: Feature[] = [
   {
@@ -28,7 +28,7 @@ const featuresData: Feature[] = [
     icon: <BsFillKanbanFill size={40} />,
     title: "Content Planner",
     paragraph:
-      "Stay organized with our content planner. Plan, organize, and manage your content calendar with ease.",
+      "Stay organized with our built-in Kanban board. Plan, organize, and manage your content calendar with ease.",
   },
   {
     id: 4,

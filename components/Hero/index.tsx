@@ -21,12 +21,13 @@ const Hero = () => {
                 </button>
               </Link> */}
               {/* <ProductHuntBadge /> */}
-              <h1 className="mb-5 text-6xl font-black leading-tight text-black dark:text-white sm:text-7xl sm:leading-tight md:text-8xl md:leading-tight">
-                Craft. Curate. Connect.
+              <h1 className="mb-5 text-3xl font-black leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-7xl md:leading-tight">
+                Create, Organize, and Publish Blogs Effortlessly
               </h1>
               <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                The Ultimate Platform for Seamless Content Curation and
-                Distribution. All in One Place.
+                From brainstorming ideas to publishing on multiple platforms,
+                Publish Studio simplifies every step of your content creation
+                process.
               </p>
               <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                 <Link
