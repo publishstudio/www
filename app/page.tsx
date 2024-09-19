@@ -51,6 +51,15 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <iframe
+        title="Interactive Story"
+        src="https://story.screenspace.io/rakesh-potnuru/e_65496589"
+        width="100%"
+        height="100%"
+        allow="clipboard-write"
+        style={{ border: "none", background: "#efeff7" }}
+        className="relative z-10 -mt-20 min-h-[400px] sm:min-h-[800px]"
+      ></iframe>
       <Features />
       {/* <Video /> */}
       {/* <Brands /> */}
