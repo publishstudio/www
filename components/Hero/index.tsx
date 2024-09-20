@@ -43,6 +43,9 @@ const Hero = () => {
                     Star on GitHub
                   </Link> */}
               </div>
+              <p className="mt-2 text-xs text-body-color dark:text-body-color-dark">
+                * No credit card required.
+              </p>
             </div>
           </div>
         </div>

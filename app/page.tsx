@@ -2,7 +2,7 @@ import { Images } from "@/assets/images";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import ScrollUp from "@/components/Common/ScrollUp";
-import FAQ from "@/components/FAQ";
+import Faq from "@/components/FAQ";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
@@ -70,7 +70,7 @@ export default function Home() {
       <Pricing />
       {/* <Blog /> */}
       {/* <Contact /> */}
-      <FAQ />
+      <Faq />
     </>
   );
 }

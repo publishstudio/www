@@ -32,7 +32,11 @@ const PricingBox = (props: {
               Start Free Trial
             </button>
           </Link>
+          <p className="mt-2 text-center text-xs text-body-color dark:text-body-color-dark">
+            * No credit card required.
+          </p>
         </div>
+
         <div>{children}</div>
         <div className="absolute bottom-0 right-0 z-[-1]">
           <svg

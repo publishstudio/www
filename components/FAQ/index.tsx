@@ -1,7 +1,7 @@
 import Link from "next/link";
 import SectionTitle from "../Common/SectionTitle";
 
-const FAQ = () => {
+const Faq = () => {
   return (
     <section id="faq" className="py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -14,16 +14,10 @@ const FAQ = () => {
           <div className="wow fadeInUp]" data-wow-delay=".2s">
             <div className="mb-9">
               <h3 className="mb-4 text-xl font-bold text-black dark:text-white">
-                Do I need to enter my credit card details to sign up?
+                Do I need to enter my credit card details for free trial?
               </h3>
               <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                You can sign up for Publish Studio without entering your credit
-                card details. But you need to provide your credit card details
-                to start the free trial. You can cancel immediately after
-                starting free trial if you don't want to automatically get
-                charged. Your free trial will still continue until the end of
-                the trial period. This is to prevent fraud and ensure that you
-                have uninterrupted access to Publish Studio.
+                No
               </p>
             </div>
             <div className="mb-1">
@@ -57,4 +51,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Faq;
