@@ -123,6 +123,7 @@ const Pricing = () => {
             duration={"mo"}
             subtitle="Full access to all the features"
           >
+            <OfferList text="7-day free trial" status="active" />
             <OfferList text="Unlimited projects" status="active" />
             <OfferList text="Publish to all 6 platforms" status="active" />
             <OfferList text="Unlimited file uploads" status="active" />
