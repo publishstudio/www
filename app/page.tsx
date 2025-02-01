@@ -52,7 +52,19 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <iframe
+      <div className="bg-gray-50 dark:bg-gray-800">
+        <div className="container flex flex-col items-center justify-between gap-10 px-10 py-8 text-center md:flex-row md:px-40 md:py-12 lg:py-20">
+          <h3 className="text-2xl font-bold">Want to try before signing up?</h3>
+          <a
+            href="https://story.screenspace.io/rakesh-potnuru/e_65496589"
+            target="_blank"
+            className="rounded-sm bg-slate-700 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+          >
+            Try Interactive Demo
+          </a>
+        </div>
+      </div>
+      {/* <iframe
         title="Interactive Story"
         src="https://story.screenspace.io/rakesh-potnuru/e_65496589"
         width="100%"
@@ -60,7 +72,7 @@ export default function Home() {
         allow="clipboard-write"
         style={{ border: "none", background: "#efeff7" }}
         className="relative z-10 -mt-20 min-h-[400px] sm:min-h-[800px]"
-      ></iframe>
+      ></iframe> */}
       <Features />
       {/* <Video /> */}
       {/* <Brands /> */}

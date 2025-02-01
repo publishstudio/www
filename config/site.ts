@@ -51,4 +51,5 @@ export const siteConfig = {
     },
   },
   showBanner: false,
+  defaultPrice: "$2.99",
 };

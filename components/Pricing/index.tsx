@@ -1,4 +1,5 @@
 "use client";
+import { siteConfig } from "@/config/site";
 import {
   initializePaddle,
   Paddle,
@@ -119,7 +120,10 @@ const Pricing = () => {
           <div></div>
           <PricingBox
             packageName="Pro"
-            price={prices?.data.details.lineItems[0].formattedTotals.subtotal}
+            price={
+              prices?.data.details.lineItems[0].formattedTotals.subtotal ??
+              siteConfig.defaultPrice
+            }
             duration={"mo"}
             subtitle="Full access to all the features"
           >

@@ -124,7 +124,7 @@ const Footer = () => {
                     href={siteConfig.pages.cookies.link}
                     className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    Biscuit Policy
+                    Cookie Policy
                   </a>
                 </li>
               </ul>
@@ -205,7 +205,7 @@ const Footer = () => {
             <a href="https://nextjstemplates.com" rel="nofollow noopener">
               Next.js Templates
             </a> */}
-            &copy; Publish Studio, 2024
+            &copy; Publish Studio, {new Date().getFullYear()}
           </p>
         </div>
       </div>
