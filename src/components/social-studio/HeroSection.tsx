@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
           <a
             href={siteConfig.links.socialStudio}
-            className="px-8 py-3 rounded-full bg-gradient-to-r from-blue-600 to-indigo-400 text-white font-medium text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+            className="px-8 py-3 rounded-full bg-gradient-to-r from-blue-600 to-indigo-400 text-white font-medium text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 z-10"
           >
             Start Posting
           </a>
