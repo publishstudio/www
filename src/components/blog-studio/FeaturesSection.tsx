@@ -1,4 +1,4 @@
-import { Calendar, Image, Import, Pen, Sparkles, Zap } from "lucide-react";
+import { Calendar, ImageIcon, Import, Pen, Sparkles, Zap } from "lucide-react";
 import React from "react";
 
 interface FeatureProps {
@@ -38,7 +38,7 @@ const FeaturesSection: React.FC = () => {
         "Schedule and organize your content calendar for optimal engagement.",
     },
     {
-      icon: <Image className="h-6 w-6 text-yellow-600" />,
+      icon: <ImageIcon className="h-6 w-6 text-yellow-600" />,
       title: "Media Integration",
       description:
         "Seamlessly incorporate images, videos, and other media into your content.",

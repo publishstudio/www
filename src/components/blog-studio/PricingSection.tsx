@@ -31,7 +31,7 @@ const PricingSection: React.FC = () => {
               const data = await response.json();
 
               ipAddress = data.ip;
-            } catch (error) {
+            } catch {
               // Ignore
             }
           };

@@ -88,9 +88,9 @@ export default function CookiesPage() {
         <Heading level={2}>How can I control cookies on my browser?</Heading>
         <p>
           As the means by which you can refuse cookies through your web browser
-          controls vary from browser to browser, you should visit your browser's
-          help menu for more information. The following is information about how
-          to manage cookies on the most popular browsers:
+          controls vary from browser to browser, you should visit your
+          browser&apos;s help menu for more information. The following is
+          information about how to manage cookies on the most popular browsers:
         </p>
         <List>
           <li>

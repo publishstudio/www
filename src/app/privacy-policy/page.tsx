@@ -325,8 +325,8 @@ export default function PrivacyPolicyPage() {
               date/time stamps associated with your usage, pages and files
               viewed, searches, and other actions you take such as which
               features you use), device event information (such as system
-              activity, error reports (sometimes called "crash dumps"), and
-              hardware settings).
+              activity, error reports (sometimes called &quot;crash
+              dumps&quot;), and hardware settings).
             </li>
             <li>
               <span className="italic">Device Data.</span> We collect device
@@ -340,16 +340,16 @@ export default function PrivacyPolicyPage() {
             </li>
             <li>
               <span className="italic">Location Data.</span> We collect location
-              data such as information about your device's location, which can
-              be either precise or imprecise. How much information we collect
-              depends on the type and settings of the device you use to access
-              the Services. For example, we may use GPS and other technologies
-              to collect geolocation data that tells us your current location
-              (based on your IP address). You can opt out of allowing us to
-              collect this information either by refusing access to the
-              information or by disabling your Location setting on your device.
-              However, if you choose to opt out, you may not be able to use
-              certain aspects of the Services.
+              data such as information about your device&apos;s location, which
+              can be either precise or imprecise. How much information we
+              collect depends on the type and settings of the device you use to
+              access the Services. For example, we may use GPS and other
+              technologies to collect geolocation data that tells us your
+              current location (based on your IP address). You can opt out of
+              allowing us to collect this information either by refusing access
+              to the information or by disabling your Location setting on your
+              device. However, if you choose to opt out, you may not be able to
+              use certain aspects of the Services.
             </li>
           </List>
           <Heading level={3}>Google API</Heading>
@@ -422,10 +422,10 @@ export default function PrivacyPolicyPage() {
             </li>
             <li>
               <strong>
-                To save or protect an individual's vital interest.
+                To save or protect an individual&apos;s vital interest.
               </strong>{" "}
               We may process your information when necessary to save or protect
-              an individual's vital interest, such as to prevent harm.
+              an individual&apos;s vital interest, such as to prevent harm.
             </li>
           </List>
         </Section>
@@ -1037,7 +1037,8 @@ export default function PrivacyPolicyPage() {
                 <td>
                   Inferences drawn from any of the collected personal
                   information listed above to create a profile or summary about,
-                  for example, an individual's preferences and characteristics
+                  for example, an individual&apos;s preferences and
+                  characteristics
                 </td>
                 <td>NO</td>
               </tr>
@@ -1100,7 +1101,7 @@ export default function PrivacyPolicyPage() {
             We may use your personal information for our own business purposes,
             such as for undertaking internal research for technological
             development and demonstration. This is not considered to be
-            "selling" of your personal information.
+            &quot;selling&quot; of your personal information.
           </p>
           <p>
             We have not disclosed, sold, or shared any personal information to
@@ -1142,9 +1143,10 @@ export default function PrivacyPolicyPage() {
             <li>
               <strong>Right to opt out</strong> of the processing of your
               personal data if it is used for targeted advertising (or sharing
-              as defined under California's privacy law), the sale of personal
-              data, or profiling in furtherance of decisions that produce legal
-              or similarly significant effects ("profiling")
+              as defined under California&apos;s privacy law), the sale of
+              personal data, or profiling in furtherance of decisions that
+              produce legal or similarly significant effects
+              (&quot;profiling&quot;)
             </li>
           </List>
           <p>
@@ -1155,23 +1157,24 @@ export default function PrivacyPolicyPage() {
             <li>
               <strong>Right to obtain a list</strong> of the categories of third
               parties to which we have disclosed personal data (as permitted by
-              applicable law, including California's and Delaware's privacy law)
+              applicable law, including California&apos;s and Delaware&apos;s
+              privacy law)
             </li>
             <li>
               <strong>Right to obtain a list</strong> of specific third parties
               to which we have disclosed personal data (as permitted by
-              applicable law, including Oregon's privacy law)
+              applicable law, including Oregon&apos;s privacy law)
             </li>
             <li>
               <strong>Right to limit</strong> use and disclosure of sensitive
               personal data (as permitted by applicable law, including
-              California's privacy law)
+              California&apos;s privacy law)
             </li>
             <li>
               <strong>Right to opt out</strong> of the collection of sensitive
               data and personal data collected through the operation of a voice
               or facial recognition feature (as permitted by applicable law,
-              including Florida's privacy law)
+              including Florida&apos;s privacy law)
             </li>
           </List>
           <Heading level={3}>How to Exercise Your Rights</Heading>
@@ -1216,11 +1219,13 @@ export default function PrivacyPolicyPage() {
             your appeal is denied, you may submit a complaint to your state
             attorney general.
           </p>
-          <Heading level={3}>California "Shine The Light" Law</Heading>
+          <Heading level={3}>
+            California &quot;Shine The Light&quot; Law
+          </Heading>
           <p>
-            California Civil Code Section 1798.83, also known as the "Shine The
-            Light" law, permits our users who are California residents to
-            request and obtain from us, once a year and free of charge,
+            California Civil Code Section 1798.83, also known as the &quot;Shine
+            The Light&quot; law, permits our users who are California residents
+            to request and obtain from us, once a year and free of charge,
             information about categories of personal information (if any) we
             disclosed to third parties for direct marketing purposes and the
             names and addresses of all third parties with which we shared
@@ -1244,8 +1249,8 @@ export default function PrivacyPolicyPage() {
           <Heading level={3}>Australia and New Zealand</Heading>
           <p>
             We collect and process your personal information under the
-            obligations and conditions set by Australia's Privacy Act 1988 and
-            New Zealand's Privacy Act 2020 (Privacy Act).
+            obligations and conditions set by Australia&apos;s Privacy Act 1988
+            and New Zealand&apos;s Privacy Act 2020 (Privacy Act).
           </p>
           <p>
             This privacy notice satisfies the notice requirements defined in
@@ -1285,7 +1290,7 @@ export default function PrivacyPolicyPage() {
             >
               Office of the Australian Information Commissioner
             </LinkButton>{" "}
-            and a breach of New Zealand's Privacy Principles to the{" "}
+            and a breach of New Zealand&apos;s Privacy Principles to the{" "}
             <LinkButton
               href={
                 "https://www.privacy.org.nz/your-rights/making-a-complaint/"

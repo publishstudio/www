@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface TestimonialProps {
@@ -28,9 +29,11 @@ const Testimonial: React.FC<TestimonialProps> = ({
 
     <div className="flex items-center">
       {avatarUrl ? (
-        <img
+        <Image
           src={avatarUrl}
           alt={name}
+          width={10}
+          height={10}
           className="w-10 h-10 rounded-full mr-4 object-cover"
         />
       ) : (

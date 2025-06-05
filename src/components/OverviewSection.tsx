@@ -18,9 +18,9 @@ const OverviewSection: React.FC = () => {
           </h2>
 
           <p className="text-lg text-gray-600 leading-relaxed mb-10">
-            From long-form blog posts to social media updates, we've streamlined
-            the process so you can focus on what matters most—creating
-            meaningful content that connects.
+            From long-form blog posts to social media updates, we&apos;ve
+            streamlined the process so you can focus on what matters
+            most—creating meaningful content that connects.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">

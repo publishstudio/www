@@ -2,6 +2,7 @@ import { Images } from "@/assets/images";
 import { siteConfig } from "@/config/site";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const Navbar: React.FC = () => {
@@ -47,12 +48,12 @@ const Navbar: React.FC = () => {
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a
+            <Link
               href="/"
               className="text-sm font-medium hover:text-blue-600 transition-colors"
             >
               Home
-            </a>
+            </Link>
             <a
               href="#features"
               className="text-sm font-medium hover:text-blue-600 transition-colors"
@@ -90,12 +91,12 @@ const Navbar: React.FC = () => {
         {/* Mobile navigation */}
         {isMenuOpen && (
           <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 px-6 space-y-4">
-            <a
+            <Link
               href="/"
               className="text-sm font-medium hover:text-blue-600 transition-colors"
             >
               Home
-            </a>
+            </Link>
             <a
               href="#features"
               className="block py-2 text-sm font-medium hover:text-blue-600 transition-colors"

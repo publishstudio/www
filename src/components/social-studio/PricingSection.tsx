@@ -29,7 +29,7 @@ const PricingSection: React.FC = () => {
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 pb-8 border-b border-gray-100">
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                    It's Free
+                    It&apos;s Free
                   </h3>
                   {/* <p className="text-gray-600">
                     Everything you need for professional content creation
