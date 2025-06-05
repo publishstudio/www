@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HeroSection: React.FC = () => {
@@ -19,12 +20,12 @@ const HeroSection: React.FC = () => {
           Create, organize, and publish with Publish Studio.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
-          <a
+          <Link
             href="#products"
-            className="px-8 py-3 rounded-full bg-gradient-to-r from-primary to-red-400 text-white font-medium text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+            className="px-8 py-3 rounded-full bg-gradient-to-r from-primary to-red-400 text-white font-medium text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 z-10"
           >
             Start Creating
-          </a>
+          </Link>
           {/* <a
             href="#learn-more"
             className="px-8 py-3 rounded-full border border-red-200 text-red-600 font-medium text-lg hover:bg-red-50 transition-all duration-300"
