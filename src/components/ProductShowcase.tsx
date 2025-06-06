@@ -111,7 +111,7 @@ const ProductShowcase: React.FC = () => {
               </div>
 
               <h3 className="text-2xl font-bold mb-3 text-gray-900">
-                Social Studio (Launching Soon)
+                Social Studio
               </h3>
               <p className="text-gray-600 mb-6">
                 Plan, create, and schedule social media posts with ease.
@@ -140,7 +140,7 @@ const ProductShowcase: React.FC = () => {
                   href={siteConfig.links.socialStudio}
                   className="px-4 py-2 rounded-full bg-gradient-to-r from-blue-600 to-indigo-400 text-white text-sm font-medium hover:shadow-lg transition-all"
                 >
-                  Launching Soon
+                  Start Posting
                 </a>
                 <a
                   href="/social-studio"

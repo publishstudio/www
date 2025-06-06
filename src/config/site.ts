@@ -20,7 +20,7 @@ export const siteConfig = {
     status: "https://pbst.link/status",
     productHunt: "https://pbst.link/ph",
     blogStudio: "https://app.publishstudio.one",
-    socialStudio: "#",
+    socialStudio: "https://social.publishstudio.one",
   },
   twitter: {
     site: "@publishstudio",
