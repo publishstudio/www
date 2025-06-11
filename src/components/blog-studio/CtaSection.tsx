@@ -35,7 +35,7 @@ const CtaSection: React.FC = () => {
           </div>
 
           <p className="mt-6 text-sm text-yellow-200">
-            No credit card required. 7-day free trial. Cancel anytime.
+            No credit card required. 7-day free trial.
           </p>
         </div>
       </div>

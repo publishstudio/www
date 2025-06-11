@@ -148,7 +148,7 @@ const PricingSection: React.FC = () => {
                   Start Your 7-Day Free Trial
                 </a>
                 <p className="mt-4 text-sm text-gray-500">
-                  No credit card required. Cancel anytime.
+                  No credit card required.
                 </p>
               </div>
             </div>

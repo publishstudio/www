@@ -85,7 +85,7 @@ const PricingSection: React.FC = () => {
                   Start Posting For Free
                 </a>
                 {/* <p className="mt-4 text-sm text-gray-500">
-                  No credit card required. Cancel anytime.
+                  No credit card required.
                 </p> */}
               </div>
             </div>
