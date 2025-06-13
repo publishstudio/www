@@ -5,6 +5,7 @@ import FeaturesSection from "@/components/blog-studio/FeaturesSection";
 import HeroSection from "@/components/blog-studio/HeroSection";
 import Navbar from "@/components/blog-studio/Navbar";
 import PricingSection from "@/components/blog-studio/PricingSection";
+import SupportedPlatformsSection from "@/components/blog-studio/SupportedPlatformsSection";
 
 export default function BlogStudioPage() {
   return (
@@ -13,6 +14,7 @@ export default function BlogStudioPage() {
       <main>
         <HeroSection />
         <FeaturesSection />
+        <SupportedPlatformsSection />
         <PricingSection />
         <CtaSection />
       </main>

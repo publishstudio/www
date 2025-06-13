@@ -4,7 +4,7 @@ import React from "react";
 
 const PricingSection: React.FC = () => {
   return (
-    <section id="pricing" className="py-20 bg-gray-50">
+    <section id="pricing" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center p-2 bg-blue-50 rounded-full mb-4">
